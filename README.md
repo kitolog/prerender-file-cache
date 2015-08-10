@@ -25,4 +25,5 @@ server.use(require('prerender-file-cache'));
 
 export CACHE_ROOT_DIR=/you/directory/for/cache  
 export CACHE_LIVE_TIME=10000 (in seconds)
+export DEV_MODE=true (true or false for console logs)
 
